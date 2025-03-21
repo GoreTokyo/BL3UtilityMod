@@ -16,7 +16,22 @@ def log_message(message: str) -> None:
 
 @command("help", description="Displays a list of available commands.")
 def display_help(args: Namespace) -> None:
-    log_message("Commands:\n[command] --help for more details on specific commands\ngive [itemserial]\nsend_mail [datatable] [rowname]\naddcurrency [currencytype] [amount]\nmaxlevel\nmaxsdus\nenablegr\nsetguardianrank [rank]\nsetguardiantokens [tokens]\ngiveskillpoints [points]\ntogglemayhem [value]\ngetmayhemseed\nsetmayhemseed [seed]")
+    log_message("""
+    Commands:
+    [command] --help for more details on specific commands
+    - give [itemserial]
+    - send_mail [datatable] [rowname]
+    - addcurrency [currencytype] [amount]
+    - maxlevel
+    - maxsdus
+    - enablegr
+    - setguardianrank [rank]
+    - setguardiantokens [tokens]
+    - giveskillpoints [points]
+    - togglemayhem [value]
+    - getmayhemseed
+    - setmayhemseed [seed]
+    """)
 
 @command("give", description="Adds an item to your inventory using a serial code from a save editor.")
 def give_item(args: Namespace) -> None:
