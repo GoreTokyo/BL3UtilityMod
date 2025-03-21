@@ -16,7 +16,7 @@ God Mode、無限弾薬、Noclip、時間操作など、さまざまな便利機
 
 ## インストール方法
 1. このリポジトリをクローンまたはダウンロードします。
-2. `BL3UtilityMod`フォルダをZIP形式に圧縮し、拡張子を.sdkmod に変更します。
+2. `GoreTokyo's Mod`フォルダをZIP形式に圧縮し、拡張子を.sdkmod に変更します。
 3.sdkmodファイルを`\Borderlands 3\sdk_mods`ディレクトリに配置します。
 
 ## 設定方法
