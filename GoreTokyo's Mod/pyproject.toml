@@ -1,0 +1,11 @@
+[project]
+name = "GoreTokyo's Mod"
+version = "1.0.1"
+authors = [{ name = "GoreTokyo" }]
+description = "GoreTokyo's Mod adds several QoL features and cheats to enhance gameplay. Features include god mode, infinite ammo, noclip, instant enemy kills, and more."
+
+[tool.sdkmod]
+name = "GoreTokyo's Mod"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/" }
+download = "https://github.com/GoreTokyo/BL3UtilityMod"
+version = "1.0.1"
